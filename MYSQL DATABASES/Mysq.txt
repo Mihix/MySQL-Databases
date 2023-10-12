@@ -1,0 +1,5 @@
+INSERT INTO orders_archived
+SELECT *
+FROM orders
+WHERE order_date <'2019-01-01' How to orders table data convert to orders_archived table  and operation , 
+what is the operation is - WHERE
